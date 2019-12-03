@@ -1,6 +1,6 @@
 # Part 1
 
-file = File.open("day2.txt")
+file = File.open("input.txt")
 input = file.read
 program = input.split(',').map(&:to_i)
 
@@ -37,7 +37,7 @@ print "\n"
 
 # Part 2
 
-file = File.open("day2.txt")
+file = File.open("input.txt")
 input = file.read
 program = input.split(',').map(&:to_i)
 
