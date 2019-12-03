@@ -8,7 +8,7 @@ let total=0
 while read l; do
   let "a = $l / 3 - 2"
   let "total = $total + $a"
-done < input/day1.txt
+done < day1.txt
 
 echo "Solution part 1:"
 echo $total
@@ -32,7 +32,7 @@ let total=0
 while read l; do
   a=$(calcfuel $l)
   let "total = $total + $a"
-done < input/day1.txt
+done < day1.txt
 
 echo "Solution part 2:"
 echo $total
